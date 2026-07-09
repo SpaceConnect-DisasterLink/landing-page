@@ -277,3 +277,58 @@ nav ul a:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+/*objetivos*/
+.objetivos {
+  background-color: var(--fundo2);
+  padding: 4rem;
+  flex-direction: column;
+  display: flex;
+  gap: 2rem;
+}
+
+.container-objetivos {
+  width: var(--largura);
+  flex-direction: column;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.card-objetivo {
+  background-color: var(--card);
+  border: 1px solid var(--fundo2);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  transition:
+    border-color 0.2s,
+    transform 0.2s;
+}
+
+.card-objetivo:hover {
+  border-color: var(--laranja);
+  transform: translateY(-3px);
+}
+
+.card-objetivo span {
+  font-family: var(--titulo);
+  color: var(--laranja);
+  font-size: 1.5rem;
+}
+
+.card-objetivo strong {
+  font-family: var(--corpo);
+  color: var(--branco);
+  font-size: 0.9rem;
+}
+
+.card-objetivo p {
+  width: var(--largura);
+  font-family: var(--corpo);
+  color: var(--cinza);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
