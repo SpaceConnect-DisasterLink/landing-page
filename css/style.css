@@ -496,3 +496,61 @@ nav ul a:hover {
   font-size: 0.8rem;
   line-height: 1.5;
 }
+
+/*rodapé*/
+footer {
+  padding: 1rem 0;
+  background-color: var(--fundo2);
+}
+
+.container-footer {
+  padding: 0 4rem;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  gap: 2rem;
+}
+
+.container-footer img {
+  height: 120px;
+}
+
+.equipe {
+  max-width: 72%;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.membro {
+  padding: 0.45rem 1rem;
+  border: 1px solid var(--card);
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  background: var(--card);
+  font-family: var(--corpo);
+  font-size: 0.8rem;
+  gap: 6px;
+  transition:
+    border-color 0.25s ease,
+    background 0.25s ease,
+    transform 0.2s ease;
+}
+
+.membro:hover {
+  background: var(--card);
+  border-color: var(--laranja);
+  transform: translateY(-1px);
+}
+
+.membro-nome {
+  font-family: var(--corpo);
+  color: var(--branco);
+  font-size: 0.85rem;
+}
+
+.membro-rm {
+  font-family: var(--corpo);
+  color: var(--laranja);
+  font-size: 0.8rem;
+}
