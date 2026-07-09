@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap");
+
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*variáveis*/
+:root {
+  --titulo: "Bebas Neue", sans-serif;
+  --corpo: "DM Sans", sans-serif;
+
+  --fundo1: #000000;
+  --fundo2: #0d1017;
+  --card: #1a2030;
+
+  --laranja: #e86a1d;
+  --branco: #e6edf3;
+  --cinza: #8b949e;
+  --vermelho: #ef4444;
+
+  --largura: 100%;
+  --altura: 100dvh;
+}
+
+/*nav*/
+nav {
+  background-color: var(--fundo1);
+  padding: 1rem 1.5rem;
+}
+
+nav .container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.nav-logo {
+  font-family: var(--titulo);
+  color: var(--branco);
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+}
+
+.nav-logo span {
+  color: var(--laranja);
+}
+
+nav ul {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul a {
+  font-family: var(--corpo);
+  color: var(--cinza);
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+
+nav ul a:hover {
+  color: var(--laranja);
+}
