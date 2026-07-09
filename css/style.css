@@ -332,3 +332,65 @@ nav ul a:hover {
   font-size: 0.8rem;
   line-height: 1.5;
 }
+
+/*publico alvo*/
+.publico {
+  background-color: var(--fundo1);
+  padding: 4rem;
+  flex-direction: column;
+  display: flex;
+  gap: 2rem;
+}
+
+.publico-img {
+  display: flex;
+  gap: 3rem;
+}
+
+.publico-img img {
+  width: 45%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.container-publico {
+  width: 50%;
+  flex-wrap: wrap;
+  align-content: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.card-publico {
+  width: calc(50% - 0.5rem);
+  padding: 2rem;
+  flex-direction: column;
+  display: flex;
+  background-color: var(--card);
+  border: 1px solid var(--fundo1);
+  border-radius: 10px;
+  gap: 0.75rem;
+  transition:
+    border-color 0.2s,
+    transform 0.2s;
+}
+
+.card-publico:hover {
+  border-color: var(--laranja);
+  transform: translateY(-3px);
+}
+
+.card-publico h3 {
+  font-family: var(--titulo);
+  color: var(--laranja);
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+.card-publico p {
+  font-family: var(--corpo);
+  color: var(--cinza);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
