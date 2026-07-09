@@ -151,3 +151,64 @@ nav ul a:hover {
   border-color: var(--branco);
   color: var(--laranja);
 }
+
+/*seções*/
+.conteudo {
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  gap: 1.5rem;
+}
+
+.conteudo span {
+  font-family: var(--corpo);
+  color: var(--laranja);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.conteudo h2 {
+  font-family: var(--titulo);
+  color: var(--branco);
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+.conteudo p {
+  font-family: var(--corpo);
+  color: var(--cinza);
+  font-size: 1rem;
+  max-width: 500px;
+  line-height: 1.5;
+}
+
+/*problema*/
+.problema {
+  background-color: var(--fundo2);
+  height: var(--altura);
+  padding: 0 4rem;
+  align-items: center;
+  display: flex;
+  gap: 4rem;
+}
+
+.alerta {
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--vermelho);
+  background-color: rgba(239, 68, 68, 0.07);
+  border-radius: 10px;
+  font-family: var(--corpo);
+  color: var(--branco);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.problema img {
+  height: 70vh;
+  width: 50%;
+  object-fit: cover;
+  border-radius: 12px;
+}
