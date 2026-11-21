@@ -4,6 +4,8 @@
 
 **A página que apresenta o problema da comunicação nos desastres, a solução e quem ela ajuda**
 
+[![Acessar o site](https://img.shields.io/badge/Vercel-Acessar%20a%20landing%20page-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://disasterlink-landing.vercel.app)
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![Responsivo](https://img.shields.io/badge/layout-responsivo-E86A1D?style=flat-square)
@@ -54,7 +56,7 @@ git clone https://github.com/SpaceConnect-DisasterLink/landing-page.git
 cd landing-page
 ```
 
-Depois, abra o arquivo `index.html` no navegador (é só dar dois cliques nele).
+Depois, abra o arquivo `index.html` no navegador (é só dar dois cliques nele). A versão publicada está em [disasterlink-landing.vercel.app](https://disasterlink-landing.vercel.app).
 
 <details>
 <summary><b>Pelo VS Code</b></summary>
